@@ -1,0 +1,11 @@
+ <table> <tr>
+          <td style="padding-top: 20px">
+                        <ext:Button runat="server" Cls="btn btn-warning btn-sm" StyleSpec="margin-top:10px"  Height="30" ID="btnAddHeadrGroup" Text="<i></i>Add Header Group">
+                            <DirectEvents>
+                                <Click OnEvent="btnAddHeadrGroup_Click">
+                                    <EventMask ShowMask="true" />
+                                </Click>
+                            </DirectEvents>
+                        </ext:Button>
+                    </td>
+            </tr></table>
